@@ -5,7 +5,12 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\RabbitMQ.Domain.Core\RabbitMQ.Domain.Core.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
       <PackageReference Include="MediatR" Version="7.0.0" />
+      <PackageReference Include="RabbitMQ.Client" Version="5.1.2" />
     </ItemGroup>
 
 </Project>
